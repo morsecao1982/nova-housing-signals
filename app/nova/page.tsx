@@ -1,38 +1,16 @@
-import { readFileSync, existsSync } from "fs";
-import { join }                     from "path";
-import NovaClient                   from "./NovaClient";
+import NovaClient from "./NovaClient";
 
-interface AreaData {
-  primary_signal: string;
-  primary_score:  number;
-  n_restaurants:  number;
-  avg_stars:      number;
-  avg_price_tier: number;
-  review_mom:     number;
-  review_yoy:     number;
-  horizons: Record<string, {
-    signal: string; score: number;
-    pred_pct: number; down_prob: number; up_prob: number;
-  }>;
-}
-
-interface Results {
-  generated_at: string;
-  data_month:   string;
-  bootstrap:    boolean;
-  confidence:   string;
-  areas:        Record<string, AreaData>;
-}
-
-function loadResults(): Results | null {
-  const p = join(process.cwd(), "public", "nova_results.json");
-  if (!existsSync(p)) return null;
-  return JSON.parse(readFileSync(p, "utf-8"));
+// Direct import — bundled at build time.
+// When GitHub Actions updates nova_results.json and pushes,
+// Vercel rebuilds automatically and picks up fresh data.
+let results: any = null;
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  results = require("../../public/nova_results.json");
+} catch {
+  results = null;
 }
 
 export default function NovaPage() {
-  const results = loadResults();
   return <NovaClient results={results} />;
 }
-
-export const revalidate = 3600; // revalidate every hour

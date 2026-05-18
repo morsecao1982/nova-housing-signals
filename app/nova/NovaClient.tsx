@@ -8,7 +8,7 @@ const SIGNAL_STYLE: Record<string, { bg: string; text: string; border: string; l
   "STRONG SELL": { bg: "bg-red-900/40",    text: "text-red-300",    border: "border-red-500",    label: "🔴 STRONG SELL" },
 };
 
-const PRICE_LABEL = ["", "$", "$$", "$$$", "$$$$"];
+const PRICE_LABEL: Record<number, string> = { 1: "$", 2: "$$", 3: "$$$", 4: "$$$$" };
 const HORIZONS    = [
   { key: "1m",  label: "1 Month"  },
   { key: "3m",  label: "3 Months" },
