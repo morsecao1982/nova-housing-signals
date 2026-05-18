@@ -1,0 +1,554 @@
+{
+  "generated_at": "2026-05-18T18:39:34.600454",
+  "data_month": "2026-05",
+  "bootstrap": false,
+  "confidence": "high",
+  "areas": {
+    "Alexandria": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 112,
+      "avg_stars": 4.07,
+      "avg_price_tier": 1.69,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "HOLD",
+          "score": 0,
+          "pred_pct": 0.46,
+          "down_prob": 0.146,
+          "up_prob": 0.854
+        },
+        "3m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 1.68,
+          "down_prob": 0.055,
+          "up_prob": 0.945
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 3.59,
+          "down_prob": 0.041,
+          "up_prob": 0.959
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.76,
+          "down_prob": 0.095,
+          "up_prob": 0.905
+        }
+      }
+    },
+    "Arlington": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 117,
+      "avg_stars": 4.01,
+      "avg_price_tier": 1.85,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "HOLD",
+          "score": 0,
+          "pred_pct": 0.47,
+          "down_prob": 0.133,
+          "up_prob": 0.867
+        },
+        "3m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 1.68,
+          "down_prob": 0.046,
+          "up_prob": 0.954
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 3.61,
+          "down_prob": 0.027,
+          "up_prob": 0.973
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.8,
+          "down_prob": 0.063,
+          "up_prob": 0.937
+        }
+      }
+    },
+    "Ashburn": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 97,
+      "avg_stars": 3.96,
+      "avg_price_tier": 1.43,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.73,
+          "down_prob": 0.045,
+          "up_prob": 0.955
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.85,
+          "down_prob": 0.024,
+          "up_prob": 0.976
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 6.02,
+          "down_prob": 0.015,
+          "up_prob": 0.985
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.43,
+          "down_prob": 0.061,
+          "up_prob": 0.939
+        }
+      }
+    },
+    "Chantilly": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 103,
+      "avg_stars": 4.0,
+      "avg_price_tier": 1.43,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.73,
+          "down_prob": 0.094,
+          "up_prob": 0.906
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.85,
+          "down_prob": 0.024,
+          "up_prob": 0.976
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 6.02,
+          "down_prob": 0.015,
+          "up_prob": 0.985
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.43,
+          "down_prob": 0.052,
+          "up_prob": 0.948
+        }
+      }
+    },
+    "Fairfax": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 113,
+      "avg_stars": 3.98,
+      "avg_price_tier": 1.52,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.7,
+          "down_prob": 0.1,
+          "up_prob": 0.9
+        },
+        "3m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 2.0,
+          "down_prob": 0.029,
+          "up_prob": 0.971
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 4.82,
+          "down_prob": 0.017,
+          "up_prob": 0.983
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 7.98,
+          "down_prob": 0.068,
+          "up_prob": 0.932
+        }
+      }
+    },
+    "Falls Church": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 114,
+      "avg_stars": 4.06,
+      "avg_price_tier": 1.47,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.73,
+          "down_prob": 0.094,
+          "up_prob": 0.906
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.05,
+          "down_prob": 0.031,
+          "up_prob": 0.969
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.19,
+          "down_prob": 0.019,
+          "up_prob": 0.981
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.11,
+          "down_prob": 0.057,
+          "up_prob": 0.943
+        }
+      }
+    },
+    "Herndon": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 112,
+      "avg_stars": 3.99,
+      "avg_price_tier": 1.59,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.54,
+          "down_prob": 0.114,
+          "up_prob": 0.886
+        },
+        "3m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 1.63,
+          "down_prob": 0.054,
+          "up_prob": 0.946
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 3.78,
+          "down_prob": 0.036,
+          "up_prob": 0.964
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 7.02,
+          "down_prob": 0.118,
+          "up_prob": 0.882
+        }
+      }
+    },
+    "Leesburg": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 87,
+      "avg_stars": 4.14,
+      "avg_price_tier": 1.51,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.7,
+          "down_prob": 0.128,
+          "up_prob": 0.872
+        },
+        "3m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 1.99,
+          "down_prob": 0.029,
+          "up_prob": 0.971
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 4.82,
+          "down_prob": 0.021,
+          "up_prob": 0.979
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.05,
+          "down_prob": 0.066,
+          "up_prob": 0.934
+        }
+      }
+    },
+    "Manassas": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 110,
+      "avg_stars": 3.89,
+      "avg_price_tier": 1.37,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.73,
+          "down_prob": 0.05,
+          "up_prob": 0.95
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.05,
+          "down_prob": 0.029,
+          "up_prob": 0.971
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.19,
+          "down_prob": 0.02,
+          "up_prob": 0.98
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.04,
+          "down_prob": 0.067,
+          "up_prob": 0.933
+        }
+      }
+    },
+    "McLean": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 76,
+      "avg_stars": 4.23,
+      "avg_price_tier": 1.66,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.8,
+          "down_prob": 0.096,
+          "up_prob": 0.904
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.35,
+          "down_prob": 0.024,
+          "up_prob": 0.976
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.49,
+          "down_prob": 0.029,
+          "up_prob": 0.971
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.9,
+          "down_prob": 0.054,
+          "up_prob": 0.946
+        }
+      }
+    },
+    "Reston": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 115,
+      "avg_stars": 4.05,
+      "avg_price_tier": 1.61,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.53,
+          "down_prob": 0.134,
+          "up_prob": 0.866
+        },
+        "3m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 1.71,
+          "down_prob": 0.049,
+          "up_prob": 0.951
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 3.55,
+          "down_prob": 0.034,
+          "up_prob": 0.966
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 6.1,
+          "down_prob": 0.097,
+          "up_prob": 0.903
+        }
+      }
+    },
+    "Sterling": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 87,
+      "avg_stars": 3.93,
+      "avg_price_tier": 1.45,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.73,
+          "down_prob": 0.045,
+          "up_prob": 0.955
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.05,
+          "down_prob": 0.028,
+          "up_prob": 0.972
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 4.88,
+          "down_prob": 0.017,
+          "up_prob": 0.983
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.04,
+          "down_prob": 0.071,
+          "up_prob": 0.929
+        }
+      }
+    },
+    "Vienna": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 110,
+      "avg_stars": 4.11,
+      "avg_price_tier": 1.59,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.53,
+          "down_prob": 0.145,
+          "up_prob": 0.855
+        },
+        "3m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 1.59,
+          "down_prob": 0.059,
+          "up_prob": 0.941
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 3.58,
+          "down_prob": 0.04,
+          "up_prob": 0.96
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 6.86,
+          "down_prob": 0.081,
+          "up_prob": 0.919
+        }
+      }
+    },
+    "Woodbridge": {
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 95,
+      "avg_stars": 3.89,
+      "avg_price_tier": 1.47,
+      "review_mom": NaN,
+      "review_yoy": NaN,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.73,
+          "down_prob": 0.045,
+          "up_prob": 0.955
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.05,
+          "down_prob": 0.028,
+          "up_prob": 0.972
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 4.88,
+          "down_prob": 0.018,
+          "up_prob": 0.982
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.04,
+          "down_prob": 0.071,
+          "up_prob": 0.929
+        }
+      }
+    }
+  }
+}

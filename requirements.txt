@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+plotly
+scipy
+statsmodels
+fredapi
+jupyter
+tqdm
+scikit-learn
+imbalanced-learn
+joblib
+googlemaps

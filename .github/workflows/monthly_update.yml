@@ -1,0 +1,40 @@
+name: Monthly NoVA Housing Signal Update
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"   # 1st of every month at 6am UTC
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download latest Zillow data
+        run: |
+          curl -L "https://files.zillowstatic.com/research/public_csvs/zhvi/Zip_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv" \
+            -o data/Zip_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+
+      - name: Run pipeline
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        run: python nova/run_pipeline.py
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/nova_results.json data/nova_snapshots/
+          git diff --staged --quiet || git commit -m "Monthly update: $(date +'%Y-%m')"
+          git push

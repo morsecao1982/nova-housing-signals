@@ -1,0 +1,41 @@
+city,signal,housing,best_lag,p_value,significant
+Indianapolis,review_mom,zhvi_mom,2,0.24967097986652204,False
+Indianapolis,review_mom,zhvi_yoy,1,0.20108065080100504,False
+Indianapolis,rpr_mom,zhvi_mom,2,0.2496709798665252,False
+Indianapolis,rpr_mom,zhvi_yoy,1,0.20108065080099327,False
+Indianapolis,review_yoy,zhvi_mom,4,0.043995311792514855,True
+Indianapolis,review_yoy,zhvi_yoy,1,0.004522601951477231,True
+Indianapolis,rpr_yoy,zhvi_mom,4,0.043995311792511475,True
+Indianapolis,rpr_yoy,zhvi_yoy,1,0.004522601951480461,True
+Nashville,review_mom,zhvi_mom,8,0.13868001180538317,False
+Nashville,review_mom,zhvi_yoy,4,0.37017068843969825,False
+Nashville,rpr_mom,zhvi_mom,8,0.13868001180540593,False
+Nashville,rpr_mom,zhvi_yoy,4,0.37017068843964485,False
+Nashville,review_yoy,zhvi_mom,12,0.01655639430791191,True
+Nashville,review_yoy,zhvi_yoy,1,0.03351308288389004,True
+Nashville,rpr_yoy,zhvi_mom,12,0.016556394307915064,True
+Nashville,rpr_yoy,zhvi_yoy,1,0.03351308288389004,True
+New Orleans,review_mom,zhvi_mom,4,0.09871255859829114,False
+New Orleans,review_mom,zhvi_yoy,5,0.00039071441257193794,True
+New Orleans,rpr_mom,zhvi_mom,4,0.09871255859829114,False
+New Orleans,rpr_mom,zhvi_yoy,5,0.0003907144125719578,True
+New Orleans,review_yoy,zhvi_mom,9,0.6056368928161153,False
+New Orleans,review_yoy,zhvi_yoy,1,0.00016654826844498302,True
+New Orleans,rpr_yoy,zhvi_mom,9,0.6056368928161033,False
+New Orleans,rpr_yoy,zhvi_yoy,1,0.0001665482684449688,True
+Philadelphia,review_mom,zhvi_mom,10,0.1274163786939994,False
+Philadelphia,review_mom,zhvi_yoy,11,0.11671647196851143,False
+Philadelphia,rpr_mom,zhvi_mom,10,0.1274163786939994,False
+Philadelphia,rpr_mom,zhvi_yoy,11,0.1167164719685279,False
+Philadelphia,review_yoy,zhvi_mom,12,0.11774381364064666,False
+Philadelphia,review_yoy,zhvi_yoy,1,2.5664759939522633e-05,True
+Philadelphia,rpr_yoy,zhvi_mom,12,0.11774381364065256,False
+Philadelphia,rpr_yoy,zhvi_yoy,1,2.566475993956493e-05,True
+Tampa,review_mom,zhvi_mom,4,0.00010268564507002215,True
+Tampa,review_mom,zhvi_yoy,5,0.005678903856774992,True
+Tampa,rpr_mom,zhvi_mom,4,0.00010268564507003524,True
+Tampa,rpr_mom,zhvi_yoy,5,0.005678903856775214,True
+Tampa,review_yoy,zhvi_mom,1,0.03129316296092041,True
+Tampa,review_yoy,zhvi_yoy,1,0.00027188209608514,True
+Tampa,rpr_yoy,zhvi_mom,1,0.031293162960902045,True
+Tampa,rpr_yoy,zhvi_yoy,1,0.00027188209608502984,True
