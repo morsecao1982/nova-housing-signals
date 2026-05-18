@@ -103,8 +103,16 @@ def run():
         }
 
     out_path = PUBLIC / "nova_results.json"
+    # Replace NaN/Inf with None so the output is valid JSON
+    def sanitize(obj):
+        if isinstance(obj, dict):   return {k: sanitize(v) for k, v in obj.items()}
+        if isinstance(obj, list):   return [sanitize(v) for v in obj]
+        if isinstance(obj, float) and (obj != obj or obj == float("inf") or obj == float("-inf")):
+            return None
+        return obj
+
     with open(out_path, "w") as f:
-        json.dump(results, f, indent=2)
+        json.dump(sanitize(results), f, indent=2)
 
     print(f"\nSignals generated:")
     for area, data in sorted(results["areas"].items()):

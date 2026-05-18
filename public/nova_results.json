@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T18:39:34.600454",
+  "generated_at": "2026-05-18T18:59:50.502499",
   "data_month": "2026-05",
   "bootstrap": false,
   "confidence": "high",
@@ -10,8 +10,8 @@
       "n_restaurants": 112,
       "avg_stars": 4.07,
       "avg_price_tier": 1.69,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "HOLD",
@@ -49,8 +49,8 @@
       "n_restaurants": 117,
       "avg_stars": 4.01,
       "avg_price_tier": 1.85,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "HOLD",
@@ -88,8 +88,8 @@
       "n_restaurants": 97,
       "avg_stars": 3.96,
       "avg_price_tier": 1.43,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -127,8 +127,8 @@
       "n_restaurants": 103,
       "avg_stars": 4.0,
       "avg_price_tier": 1.43,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -166,8 +166,8 @@
       "n_restaurants": 113,
       "avg_stars": 3.98,
       "avg_price_tier": 1.52,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -205,8 +205,8 @@
       "n_restaurants": 114,
       "avg_stars": 4.06,
       "avg_price_tier": 1.47,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -244,8 +244,8 @@
       "n_restaurants": 112,
       "avg_stars": 3.99,
       "avg_price_tier": 1.59,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -283,8 +283,8 @@
       "n_restaurants": 87,
       "avg_stars": 4.14,
       "avg_price_tier": 1.51,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -322,8 +322,8 @@
       "n_restaurants": 110,
       "avg_stars": 3.89,
       "avg_price_tier": 1.37,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -361,8 +361,8 @@
       "n_restaurants": 76,
       "avg_stars": 4.23,
       "avg_price_tier": 1.66,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -400,8 +400,8 @@
       "n_restaurants": 115,
       "avg_stars": 4.05,
       "avg_price_tier": 1.61,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -439,8 +439,8 @@
       "n_restaurants": 87,
       "avg_stars": 3.93,
       "avg_price_tier": 1.45,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -478,8 +478,8 @@
       "n_restaurants": 110,
       "avg_stars": 4.11,
       "avg_price_tier": 1.59,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
@@ -517,8 +517,8 @@
       "n_restaurants": 95,
       "avg_stars": 3.89,
       "avg_price_tier": 1.47,
-      "review_mom": NaN,
-      "review_yoy": NaN,
+      "review_mom": null,
+      "review_yoy": null,
       "horizons": {
         "1m": {
           "signal": "BUY",
