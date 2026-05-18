@@ -91,7 +91,19 @@ def run():
         # Primary signal = 6-month (most reliable)
         primary = area_signals.get("6m", {})
 
+        # Determine region from snapshot data
+        region = "Northern Virginia"
+        snap_dir = Path(__file__).parent.parent / "data" / "nova_snapshots"
+        latest_snap = sorted(snap_dir.glob("*.json"))[-1] if list(snap_dir.glob("*.json")) else None
+        if latest_snap:
+            import json as _json
+            snap = _json.load(open(latest_snap))
+            area_rests = snap.get("areas", {}).get(area, [])
+            if area_rests:
+                region = area_rests[0].get("region", "Northern Virginia")
+
         results["areas"][area] = {
+            "region":         region,
             "primary_signal": primary.get("signal", "HOLD"),
             "primary_score":  primary.get("score", 0),
             "n_restaurants":  int(row.get("n_restaurants", 0)),

@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-18T18:59:50.502499",
+  "generated_at": "2026-05-18T19:14:11.434977",
   "data_month": "2026-05",
   "bootstrap": false,
   "confidence": "high",
   "areas": {
     "Alexandria": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 112,
@@ -44,6 +45,7 @@
       }
     },
     "Arlington": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 117,
@@ -83,6 +85,7 @@
       }
     },
     "Ashburn": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 97,
@@ -121,7 +124,48 @@
         }
       }
     },
+    "Bethesda": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 115,
+      "avg_stars": 4.18,
+      "avg_price_tier": 1.8,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.54,
+          "down_prob": 0.096,
+          "up_prob": 0.904
+        },
+        "3m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 1.67,
+          "down_prob": 0.04,
+          "up_prob": 0.96
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 3.64,
+          "down_prob": 0.034,
+          "up_prob": 0.966
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.8,
+          "down_prob": 0.073,
+          "up_prob": 0.927
+        }
+      }
+    },
     "Chantilly": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 103,
@@ -160,7 +204,88 @@
         }
       }
     },
+    "Chevy Chase": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 107,
+      "avg_stars": 4.2,
+      "avg_price_tier": 1.79,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.62,
+          "down_prob": 0.096,
+          "up_prob": 0.904
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.08,
+          "down_prob": 0.04,
+          "up_prob": 0.96
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 4.5,
+          "down_prob": 0.034,
+          "up_prob": 0.966
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.05,
+          "down_prob": 0.073,
+          "up_prob": 0.927
+        }
+      }
+    },
+    "Clarksburg": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 31,
+      "avg_stars": 4.09,
+      "avg_price_tier": 1.31,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.64,
+          "down_prob": 0.162,
+          "up_prob": 0.838
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.63,
+          "down_prob": 0.027,
+          "up_prob": 0.973
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.15,
+          "down_prob": 0.025,
+          "up_prob": 0.975
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 7.8,
+          "down_prob": 0.039,
+          "up_prob": 0.961
+        }
+      }
+    },
     "Fairfax": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 113,
@@ -200,6 +325,7 @@
       }
     },
     "Falls Church": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 114,
@@ -238,7 +364,88 @@
         }
       }
     },
+    "Gaithersburg": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 112,
+      "avg_stars": 3.98,
+      "avg_price_tier": 1.53,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.7,
+          "down_prob": 0.1,
+          "up_prob": 0.9
+        },
+        "3m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 2.0,
+          "down_prob": 0.029,
+          "up_prob": 0.971
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 4.82,
+          "down_prob": 0.017,
+          "up_prob": 0.983
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 7.98,
+          "down_prob": 0.068,
+          "up_prob": 0.932
+        }
+      }
+    },
+    "Germantown": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 81,
+      "avg_stars": 3.94,
+      "avg_price_tier": 1.33,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.64,
+          "down_prob": 0.081,
+          "up_prob": 0.919
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.63,
+          "down_prob": 0.024,
+          "up_prob": 0.976
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.15,
+          "down_prob": 0.022,
+          "up_prob": 0.978
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 7.73,
+          "down_prob": 0.039,
+          "up_prob": 0.961
+        }
+      }
+    },
     "Herndon": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 112,
@@ -278,6 +485,7 @@
       }
     },
     "Leesburg": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 87,
@@ -317,6 +525,7 @@
       }
     },
     "Manassas": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 110,
@@ -356,6 +565,7 @@
       }
     },
     "McLean": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 76,
@@ -394,7 +604,88 @@
         }
       }
     },
+    "Olney": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 63,
+      "avg_stars": 4.2,
+      "avg_price_tier": 1.66,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.78,
+          "down_prob": 0.085,
+          "up_prob": 0.915
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.32,
+          "down_prob": 0.021,
+          "up_prob": 0.979
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.45,
+          "down_prob": 0.03,
+          "up_prob": 0.97
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 7.94,
+          "down_prob": 0.057,
+          "up_prob": 0.943
+        }
+      }
+    },
+    "Potomac": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 15,
+      "avg_stars": 4.07,
+      "avg_price_tier": 1.8,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.69,
+          "down_prob": 0.062,
+          "up_prob": 0.938
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.76,
+          "down_prob": 0.018,
+          "up_prob": 0.982
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.76,
+          "down_prob": 0.018,
+          "up_prob": 0.982
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 7.61,
+          "down_prob": 0.028,
+          "up_prob": 0.972
+        }
+      }
+    },
     "Reston": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 115,
@@ -433,7 +724,88 @@
         }
       }
     },
+    "Rockville": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 109,
+      "avg_stars": 4.15,
+      "avg_price_tier": 1.56,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.76,
+          "down_prob": 0.09,
+          "up_prob": 0.91
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.16,
+          "down_prob": 0.032,
+          "up_prob": 0.968
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 5.36,
+          "down_prob": 0.024,
+          "up_prob": 0.976
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.18,
+          "down_prob": 0.099,
+          "up_prob": 0.901
+        }
+      }
+    },
+    "Silver Spring": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 114,
+      "avg_stars": 4.04,
+      "avg_price_tier": 1.55,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.71,
+          "down_prob": 0.094,
+          "up_prob": 0.906
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.95,
+          "down_prob": 0.033,
+          "up_prob": 0.967
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 6.09,
+          "down_prob": 0.019,
+          "up_prob": 0.981
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 7.36,
+          "down_prob": 0.082,
+          "up_prob": 0.918
+        }
+      }
+    },
     "Sterling": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 87,
@@ -472,7 +844,48 @@
         }
       }
     },
+    "Takoma Park": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 115,
+      "avg_stars": 3.95,
+      "avg_price_tier": 1.52,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.73,
+          "down_prob": 0.045,
+          "up_prob": 0.955
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.85,
+          "down_prob": 0.024,
+          "up_prob": 0.976
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 6.02,
+          "down_prob": 0.015,
+          "up_prob": 0.985
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.43,
+          "down_prob": 0.061,
+          "up_prob": 0.939
+        }
+      }
+    },
     "Vienna": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 110,
@@ -511,7 +924,48 @@
         }
       }
     },
+    "Wheaton": {
+      "region": "Montgomery County MD",
+      "primary_signal": "STRONG BUY",
+      "primary_score": 2,
+      "n_restaurants": 88,
+      "avg_stars": 3.92,
+      "avg_price_tier": 1.36,
+      "review_mom": null,
+      "review_yoy": null,
+      "horizons": {
+        "1m": {
+          "signal": "BUY",
+          "score": 1,
+          "pred_pct": 0.73,
+          "down_prob": 0.05,
+          "up_prob": 0.95
+        },
+        "3m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 2.85,
+          "down_prob": 0.025,
+          "up_prob": 0.975
+        },
+        "6m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 6.02,
+          "down_prob": 0.016,
+          "up_prob": 0.984
+        },
+        "12m": {
+          "signal": "STRONG BUY",
+          "score": 2,
+          "pred_pct": 8.43,
+          "down_prob": 0.061,
+          "up_prob": 0.939
+        }
+      }
+    },
     "Woodbridge": {
+      "region": "Northern Virginia",
       "primary_signal": "STRONG BUY",
       "primary_score": 2,
       "n_restaurants": 95,

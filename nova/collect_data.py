@@ -1,5 +1,5 @@
 """
-Monthly Google Places data collector for Northern Virginia.
+Monthly Google Places data collector for Northern Virginia + Montgomery County MD.
 Snapshots all restaurants per area, saves to data/nova_snapshots/YYYY-MM.json
 
 Run: python nova/collect_data.py
@@ -13,27 +13,44 @@ API_KEY   = os.environ.get("GOOGLE_PLACES_API_KEY", "")
 OUT_DIR   = Path(__file__).parent.parent / "data" / "nova_snapshots"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Northern Virginia search areas: (name, lat, lng, radius_m)
+# Northern Virginia search areas: (name, region, lat, lng, radius_m)
 NOVA_AREAS = [
-    ("Arlington",       38.8816, -77.0910, 5000),
-    ("Alexandria",      38.8048, -77.0469, 5000),
-    ("Falls Church",    38.8823, -77.1711, 4000),
-    ("McLean",          38.9339, -77.1773, 4000),
-    ("Fairfax",         38.8462, -77.3064, 5000),
-    ("Vienna",          38.9012, -77.2653, 4000),
-    ("Reston",          38.9587, -77.3570, 5000),
-    ("Herndon",         38.9696, -77.3861, 4000),
-    ("Chantilly",       38.8851, -77.4319, 5000),
-    ("Ashburn",         39.0437, -77.4875, 5000),
-    ("Sterling",        39.0026, -77.4294, 4000),
-    ("Leesburg",        39.1157, -77.5636, 5000),
-    ("Woodbridge",      38.6543, -77.2497, 5000),
-    ("Manassas",        38.7509, -77.4753, 5000),
+    ("Arlington",       "Northern Virginia", 38.8816, -77.0910, 5000),
+    ("Alexandria",      "Northern Virginia", 38.8048, -77.0469, 5000),
+    ("Falls Church",    "Northern Virginia", 38.8823, -77.1711, 4000),
+    ("McLean",          "Northern Virginia", 38.9339, -77.1773, 4000),
+    ("Fairfax",         "Northern Virginia", 38.8462, -77.3064, 5000),
+    ("Vienna",          "Northern Virginia", 38.9012, -77.2653, 4000),
+    ("Reston",          "Northern Virginia", 38.9587, -77.3570, 5000),
+    ("Herndon",         "Northern Virginia", 38.9696, -77.3861, 4000),
+    ("Chantilly",       "Northern Virginia", 38.8851, -77.4319, 5000),
+    ("Ashburn",         "Northern Virginia", 39.0437, -77.4875, 5000),
+    ("Sterling",        "Northern Virginia", 39.0026, -77.4294, 4000),
+    ("Leesburg",        "Northern Virginia", 39.1157, -77.5636, 5000),
+    ("Woodbridge",      "Northern Virginia", 38.6543, -77.2497, 5000),
+    ("Manassas",        "Northern Virginia", 38.7509, -77.4753, 5000),
 ]
+
+# Montgomery County, MD search areas
+MONTGOMERY_AREAS = [
+    ("Silver Spring",   "Montgomery County MD", 38.9907, -77.0261, 4000),
+    ("Bethesda",        "Montgomery County MD", 38.9848, -77.0947, 4000),
+    ("Rockville",       "Montgomery County MD", 39.0840, -77.1528, 5000),
+    ("Gaithersburg",    "Montgomery County MD", 39.1434, -77.2014, 5000),
+    ("Germantown",      "Montgomery County MD", 39.1732, -77.2717, 4000),
+    ("Potomac",         "Montgomery County MD", 39.0173, -77.2080, 4000),
+    ("Chevy Chase",     "Montgomery County MD", 38.9837, -77.0788, 3000),
+    ("Takoma Park",     "Montgomery County MD", 38.9812, -77.0074, 3000),
+    ("Wheaton",         "Montgomery County MD", 39.0437, -77.0572, 3000),
+    ("Clarksburg",      "Montgomery County MD", 39.2368, -77.2683, 4000),
+    ("Olney",           "Montgomery County MD", 39.1535, -77.0716, 4000),
+]
+
+ALL_AREAS = NOVA_AREAS + MONTGOMERY_AREAS
 
 RESTAURANT_TYPES = ["restaurant", "cafe", "bar", "bakery", "meal_takeaway"]
 
-def fetch_area_restaurants(gmaps, area_name, lat, lng, radius):
+def fetch_area_restaurants(gmaps, area_name, region, lat, lng, radius):
     """Fetch all restaurants for one area using nearby search + pagination."""
     restaurants = {}
     for rtype in RESTAURANT_TYPES[:2]:   # restaurant + cafe to stay in budget
@@ -62,6 +79,7 @@ def fetch_area_restaurants(gmaps, area_name, lat, lng, radius):
                     "lat":         r["geometry"]["location"]["lat"],
                     "lng":         r["geometry"]["location"]["lng"],
                     "area":        area_name,
+                    "region":      region,
                     "types":       r.get("types", []),
                 }
         except Exception as e:
@@ -86,9 +104,9 @@ def run():
     snapshot = {"month": month, "collected_at": datetime.now().isoformat(), "areas": {}}
 
     total = 0
-    for area_name, lat, lng, radius in NOVA_AREAS:
-        print(f"  {area_name}...", end=" ", flush=True)
-        rests = fetch_area_restaurants(gmaps, area_name, lat, lng, radius)
+    for area_name, region, lat, lng, radius in ALL_AREAS:
+        print(f"  [{region}] {area_name}...", end=" ", flush=True)
+        rests = fetch_area_restaurants(gmaps, area_name, region, lat, lng, radius)
         snapshot["areas"][area_name] = rests
         total += len(rests)
         print(f"{len(rests)} restaurants")
